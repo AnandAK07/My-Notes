@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    background: #23424A;
+    color: white;
+
+    width: 80%;
+    margin: 0 auto;
+
+    /* ==== */
+    /* website are responsive by default its us we make changes look UI better we may change it to Non responsive */
+    /* turn off the height then over flow will not hapen bcs web is response automatically we are making the changes  */
+    /* height: 300px; */
+    /* ===== */
+    padding: 5em;
+}

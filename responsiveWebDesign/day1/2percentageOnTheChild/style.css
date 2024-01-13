@@ -1,0 +1,25 @@
+/* imp box-sizing:border-box*/
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+}
+.parent{
+    background: red;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto; 
+    /* ===== */
+    /* overflow: hidden; */
+    /* ===== */
+}
+
+.children{
+    background: greenyellow;
+    height: 250px;
+    /* ====== */
+    /* width: 500px; */
+    /* 50% of 80% half of 80 */
+    width: 50%;
+    /* ====== */
+}
